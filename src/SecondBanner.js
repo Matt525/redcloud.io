@@ -3,9 +3,6 @@ import "./navStyles.css";
 import secondBanner from './lastBanner.png'
 export default function SecondBanner() {
 
-    const bannerStyles = { 
-        backgroundSize: 'cover!important',           
-    }
 
     return (
         <div>

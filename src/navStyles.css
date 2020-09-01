@@ -61,9 +61,8 @@
     }
 
 }
-
 .static { 
-    position: static;
+    width: 100vw;
 }
 
 
@@ -72,7 +71,9 @@
                     width: 100vw!important;
                 }
                 .landingBanner { 
-                    width: 300px;
+                    position: relative;
+                    width: 100%;
+                    
                 }    
 
 }

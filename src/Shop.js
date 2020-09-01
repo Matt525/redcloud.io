@@ -10,9 +10,13 @@ export default class Shop extends Component {
         const headerText = { 
             margin: '0 0 2em 0'
         }
+
+        const proudctCard = { 
+            width: '500px'
+        }
     const shopData = data;
     const shopCards = shopData.map((item, index)=>(
-                <div class="col d-inline-flex justify-content-center">
+                <div class="col" style={proudctCard}>
                             <div class="card" className="cardStyle">
                                                 <img class="card-img-top" key={item.productImage} src={item.productImage} alt="Card image cap" />
                                                 <div class="card-body">
@@ -26,14 +30,15 @@ export default class Shop extends Component {
         
     ))
         return (
-            <div className="container">
-                <h1 style={headerText}>Apparel</h1>
+    
+            
                 
-                 <div class="row">
-                        
-                            {shopCards}
-                        
-                    </div>
+                <div className="container">
+                        <h1 style={headerText}>Apparel</h1>
+             <div className="row">                            
+             {shopCards}
+             </div>
+     
                 </div>
                 )
     }

@@ -1,7 +1,4 @@
-html body { 
-    width: 100vw!important;
-    height: 100vh!important;
-}
+
 @media only screen and (max-width: 1024px){
     .container { 
         margin: 50% 0% 0% 0%!important;
@@ -14,12 +11,13 @@ html body {
 @media only screen and (min-width: 700px){
     .container { 
         margin: 50% 0% 0% 0%;
-
+        
     }
 }
 
 .container { 
-    margin: 25% 28% 0% 29%;
+    width: 100%!important;
+    margin: 25% 25% 0% 28%;
     font-family: 'quicksand', sans-serif;
     
 
