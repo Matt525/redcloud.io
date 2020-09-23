@@ -16,8 +16,8 @@ export default class Shop extends Component {
         }
     const shopData = data;
     const shopCards = shopData.map((item, index)=>(
-                <div class="col" style={proudctCard}>
-                            <div class="card" className="cardStyle">
+                <div class="d-flex justify-content-center flow-lg-row flex-sm-column">
+                            <div className="cardStyle p-2">
                                                 <img class="card-img-top" key={item.productImage} src={item.productImage} alt="Card image cap" />
                                                 <div class="card-body">
                                                 <h5 class="card-title">{item.name}</h5>
@@ -33,9 +33,9 @@ export default class Shop extends Component {
     
             
                 
-                <div className="container">
+                <div className="">
                         <h1 style={headerText}>Apparel</h1>
-             <div className="row">                            
+             <div className="d-flex justify-content-center flex-lg-row flex-sm">                            
              {shopCards}
              </div>
      

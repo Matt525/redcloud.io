@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Banner />
-      <Breakpoint />
+      <Breakpoint/>
       <Shop />
       <SecondBanner />
     </div>
