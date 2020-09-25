@@ -34,8 +34,8 @@ export default class Shop extends Component {
             
                 
                 <div className="">
-                        <h1 style={headerText}>Apparel</h1>
-             <div className="d-flex justify-content-center flex-lg-row flex-sm">                            
+                        <h1 style={headerText}>S t o r e</h1>
+             <div className="d-flex justify-content-center flex-lg-row flex-sm flex-wrap">                            
              {shopCards}
              </div>
      

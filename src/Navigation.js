@@ -8,7 +8,7 @@ export default class Navigation extends Component {
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <a className="navbar-brand">
                         <img src={require("./ImageSource/cloud_circle_48px.svg")} width="30" height="30" className="logo" alt="" />
-                        <strong style={{color: 'red'}}>Red</strong> Cloud
+                        <strong style={{color: 'red'}}>Red </strong>| Coud
                     </a>
                         <div className="collapse navbar-collapse" id="navbarNavAltMarkup" className="header">
                         <ul class="navbar-nav justify-content-center">
